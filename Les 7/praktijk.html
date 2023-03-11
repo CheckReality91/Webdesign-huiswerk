@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inschrijven</title>
+	</head>
+	<body>
+		<h1>Inschrijfformulier</h1>
+		<fieldset>
+			<legend>Persoonlijke gegevens</legend>
+			<label for="aanhef"><b>Aanhef:</b></label>
+			<input type="radio" name="aanhef" id="aanhef" value="dhr" />Dhr.
+			<input type="radio" name="aanhef" id="aanhef" value="mevr" />Mevr.
+			<input
+				type="radio"
+				name="aanhef"
+				id="aanhef"
+				value="anders"
+			/>Anders <br /><br />
+			<label for="naam">Volledige naam:</label>
+			<input type="text" name="naam" id="naam" />
+			<br /><br />
+			<label for="adres">Adres:</label>
+			<input type="text" name="adres" id="adres" />
+			<br />
+			<br />
+			<label for="postcode">Postcode:</label>
+			<input type="text" name="postcode" id="postcode" />
+			<br />
+			<br />
+			<label for="woonplaats">Woonplaats:</label>
+			<input type="text" name="woonplaats" id="woonplaats" />
+			<br /><br />
+			<label for="profielfoto">Profielfoto:</label>
+			<input type="file" name="profielfoto" id="profielfoto" />
+		</fieldset>
+		<fieldset>
+			<legend>Inschrijfinformatie</legend>
+			<label for="hoogste_opleiding">Hoogst genoten opleiding</label>
+			<input
+				type="text"
+				name="hoogste_opleiding"
+				id="hoogste_opleiding"
+			/>
+			<br /><br />
+			<label for="cursus">Gewenste cursus:</label>
+			<input type="radio" name="cursus" id="cursus" value="Scrum" />Scrum
+			<input
+				type="radio"
+				name="cursus"
+				id="cursus"
+				value="Databases"
+			/>Databases
+			<input type="radio" name="cursus" id="cursus" value="React" />React
+			<br /><br />
+			<label for="startdatum">Gewenste startdatum</label>
+			<input type="date" name="startdatum" id="startdatum" />
+		</fieldset>
+		<br />
+		<input
+			type="submit"
+			name="submit"
+			id="sumbit"
+			value="Formulier insturen"
+		/>
+	</body>
+</html>

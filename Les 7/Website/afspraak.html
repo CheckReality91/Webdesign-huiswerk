@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tandarstafspraak || Tandarstpraktijk Kieskeurig</title>
+	</head>
+	<body>
+		<div>
+			<h1>Tandarstafspraak</h1>
+			<p>
+				Tandarstpraktijk Kieskeurig is dé specialist op het gebied van
+				verschillende soorten tandheelkundige zorg. Door het werken met
+				specialisten op verschillende vakgebieden zorgen wij er voor dat
+				alle patiënten die hoogstaande kwalitatieve tandheelkundige zorg
+				krijgen die zij verdienen. Door de jarenlange ervaring zorgen
+				wij, het team van deskundige tandartsen, mondhygiënisten en
+				medewerkers, ervoor dat uw gebit de beste behandeling krijgt en
+				u de praktijk met een fijn gevoel verlaat.
+			</p>
+			<img
+				src="images/Tandartspraktijk_1.png"
+				alt="Interieur Tandarstpraktijk"
+				width="300"
+			/>
+			<img
+				src="images/Tandartspraktijk_2.jpg"
+				alt="Tandarstpraktijks gereedschap"
+				width="300"
+			/>
+			<img
+				src="images/Tandartspraktijk_3.jpg"
+				alt="Tandarstpraktijk receptie"
+				width="300"
+			/>
+		</div>
+
+		<div>
+			<form method="post" action="https://formspree.io/f/mbjekdgq">
+				<fieldset>
+					<legend>Persoonlijke gegevens</legend>
+					<label for="aanhef">Aanhef:</label>
+					<input type="radio" name="aanhef" value="dhr" checked />Dhr.
+					<input type="radio" name="aanhef" value="mevr" />Mevr.
+					<input type="radio" name="aanhef" value="anders" />Anders
+					<br />
+					<br />
+					<label for="voornaam">Voornaam:</label>
+					<input type="text" name="voornaam" id="voornaam" />
+					<br /><br />
+					<label for="achternaam">Achternaam:</label>
+					<input type="text" name="achternaam" id="achternaam" />
+					<br /><br />
+					<label for="adres">Adres:</label>
+					<input type="text" name="adres" id="adres" />
+					<br /><br />
+					<label for="postcode">Postcode:</label>
+					<input type="text" name="postcode" id="postcode" />
+					<br /><br />
+					<label for="woonplaats">Woonplaats:</label>
+					<input type="text" name="woonplaats" id="woonplaats" />
+					<br /><br />
+					<label for="telefoonnummer">Telefoonnummer:</label>
+					<input
+						type="tel"
+						name="telefoonnummer"
+						id="telefoonnummer"
+					/>
+					<br /><br />
+					<label for="email">E-mailadres:</label>
+					<input type="email" name="email" id="email" />
+				</fieldset>
+				<br />
+				<fieldset>
+					<legend>Beschrijving van de klachten</legend>
+					<label for="klachten"
+						>Welke klachten komen het meest overeen:</label
+					>
+					<input
+						type="checkbox"
+						name="klachten"
+						value="kiespijn"
+					/>Kiespijn
+					<input
+						type="checkbox"
+						name="klachten"
+						value="ontstoken_tandvlees"
+					/>Ontstoken tandvlees
+					<input
+						type="checkbox"
+						name="klachten"
+						value="kapotte_kies"
+					/>Kapotte kies
+					<input type="checkbox" name="klachten" value="abces" />Abces
+					<input
+						type="checkbox"
+						name="klachten"
+						value="doorkomende_verstandskies"
+					/>Doorkomende verstandskies
+					<input
+						type="checkbox"
+						name="klachten"
+						value="verloren_tand"
+					/>Verloren tand <br /><br />
+					<label for="foto">Upload hier uw foto van de klacht:</label>
+					<input type="file" name="foto" id="foto" />
+				</fieldset>
+				<fieldset>
+					<legend>Toelichting van de klacht</legend>
+					<label for="toelichting"
+						>Kunt u uw klacht(en) verder toelichten?</label
+					>
+					<textarea
+						type="textarea"
+						name="toelichting"
+						id="toelichting"
+						maxlenght="1500"
+						placeholder="Typ hier uw toelichting"
+					>
+					</textarea>
+					<br /><br />
+					<label for="datum_klacht"
+						>Waneer begonnen deze klachten?:</label
+					>
+					<input type="date" name="datum_klacht" id="datum_klacht" />
+				</fieldset>
+				<br />
+				<input
+					type="submit"
+					name="submit"
+					id="sumbit"
+					value="Verzenden, en neem contact met mij op"
+				/>
+			</form>
+		</div>
+	</body>
+</html>
