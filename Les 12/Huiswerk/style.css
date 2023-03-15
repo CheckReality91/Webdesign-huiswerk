@@ -15,3 +15,77 @@ footer {
 	width: auto;
 	height: 60px;
 }
+
+img {
+	height: 200px;
+}
+
+/* Rij 1 */
+#aa {
+	background-color: #f2cecb;
+}
+
+#ab {
+	background-color: #f08b84;
+}
+
+#ac {
+	background-color: #f54e42;
+}
+
+#ad {
+	background-color: #f21707;
+}
+/* Rij 2 */
+
+#ba {
+	background-color: #c8ffc2;
+}
+
+#bb {
+	background-color: #7aff6b;
+}
+
+#bc {
+	background-color: #4cf739;
+}
+
+#bd {
+	background-color: #16ab05;
+}
+
+/* Rij 3 */
+
+#ca {
+	background-color: #c2deff;
+}
+
+#cb {
+	background-color: #61a9fa;
+}
+
+#cc {
+	background-color: #2187fc;
+}
+
+#cd {
+	background-color: #0054b5;
+}
+
+/* Rij 4 */
+
+#da {
+	background-color: #ffadfb;
+}
+
+#db {
+	background-color: #ff5cf7;
+}
+
+#dc {
+	background-color: #ed07e2;
+}
+
+#dd {
+	background-color: #91008a;
+}
