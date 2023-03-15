@@ -6,14 +6,12 @@ html {
 
 header {
 	background-color: #73ab84;
-	width: auto;
 	height: 80px;
 }
 
 footer {
 	background-color: #99d19c;
-	width: auto;
-	height: 60px;
+	height: 30px;
 }
 
 img {
