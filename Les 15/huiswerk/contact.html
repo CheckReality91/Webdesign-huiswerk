@@ -15,7 +15,11 @@
 		</header>
 		<h1>Contactformulier</h1>
 		<div>
-			<form action="#" method="post">
+			<form
+				action="https://formspree.io/f/mnqyzkdo"
+				method="post"
+				id="form"
+			>
 				<input
 					type="text"
 					name="voornaam"
@@ -34,8 +38,8 @@
 					id="email"
 					placeholder="E-Mail"
 				/>
-				<textarea placeholder="Bericht"></textarea>
-				<button>Verzend</button>
+				<textarea placeholder="Bericht" name="bericht"></textarea>
+				<button type="submit" form="form">Verzend</button>
 			</form>
 		</div>
 		<footer>
