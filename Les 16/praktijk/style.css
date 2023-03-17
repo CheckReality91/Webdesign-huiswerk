@@ -19,7 +19,7 @@ img {
 }
 div {
 	margin: 15px;
-	padding: 20px;
+	padding: 5px;
 	border-radius: 20px;
 }
 
@@ -40,4 +40,16 @@ div {
 .drie {
 	background-color: beige;
 	border: 3px solid rebeccapurple;
+}
+
+.een img:hover {
+	filter: opacity(50%);
+}
+
+.twee img {
+	filter: none;
+}
+
+.drie img:hover {
+	filter: saturate(40%);
 }
