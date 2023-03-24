@@ -1,26 +1,30 @@
+/* Main */
+
 html {
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: rgb(221, 221, 221);
 }
 
 [class*='class=col-'] {
 	width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1270px) {
 	[class*='class=col-'] {
 		float: left;
-		padding: 15px;
+		padding: 40px;
+	}
+	#content {
+		display: flex;
 	}
 }
+
+/* Header */
 
 header {
 	background-image: url(img/enschede.webp);
 	background-repeat: no-repeat;
 	background-position: center;
-}
-
-#content {
-	display: flex;
 }
 
 h1 {
@@ -29,18 +33,36 @@ h1 {
 	font-size: 40px;
 }
 
-li {
-	list-style: none;
+.tekst-element {
+	margin: 5px;
+	min-height: 200px;
+}
+
+p {
 	padding: 5px;
 }
 
-.left {
-	background-color: rgb(236, 143, 143);
-}
-.right {
-	background-color: rgb(190, 190, 190);
+img {
+	float: right;
+	width: 150px;
+	padding: 5px;
 }
 
+h3 {
+	padding: 0 5px;
+}
+
+li {
+	list-style: square;
+	padding: 5px;
+	min-width: 200px;
+}
+
+.red {
+	background-color: rgb(252, 134, 134);
+}
+
+/* Column decleration */
 .col-1 {
 	width: 8.33%;
 }
@@ -77,3 +99,5 @@ li {
 .col-12 {
 	width: 100%;
 }
+
+/* Footer */
