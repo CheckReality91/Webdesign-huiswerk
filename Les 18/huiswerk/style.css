@@ -1,103 +1,105 @@
-/* Main */
-
-html {
-	font-family: Helvetica, Arial, sans-serif;
-	background-color: rgb(221, 221, 221);
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #ffffeb;
+	margin: 0;
 }
-
-[class*='class=col-'] {
-	width: 100%;
-}
-
-@media only screen and (min-width: 1270px) {
-	[class*='class=col-'] {
-		float: left;
-		padding: 40px;
-	}
-	#content {
-		display: flex;
-	}
-}
-
-/* Header */
 
 header {
+	height: 150px;
 	background-image: url(img/enschede.webp);
-	background-repeat: no-repeat;
 	background-position: center;
+	color: white;
 }
 
 h1 {
-	color: white;
-	padding: 5%;
-	font-size: 40px;
+	transform: translate(25%, 150%);
+	margin: auto;
+	width: 300px;
 }
 
-.tekst-element {
-	margin: 5px;
-	min-height: 200px;
-}
-
-p {
-	padding: 5px;
-}
-
-img {
-	float: right;
-	width: 150px;
-	padding: 5px;
-}
-
-h3 {
-	padding: 0 5px;
-}
-
-li {
-	list-style: square;
-	padding: 5px;
-	min-width: 200px;
-}
-
-.red {
-	background-color: rgb(252, 134, 134);
-}
-
-/* Column decleration */
-.col-1 {
-	width: 8.33%;
-}
-.col-2 {
-	width: 16.66%;
-}
-.col-3 {
-	width: 25%;
-}
-.col-4 {
-	width: 33.33%;
-}
-.col-5 {
-	width: 41.66%;
-}
-.col-6 {
-	width: 50%;
-}
-.col-7 {
-	width: 58.33%;
-}
-.col-8 {
-	width: 66.66%;
-}
-.col-9 {
-	width: 75%;
-}
-.col-10 {
-	width: 83.33%;
-}
-.col-11 {
-	width: 91.66%;
-}
-.col-12 {
+section {
+	margin: 0;
 	width: 100%;
 }
 
-/* Footer */
+li {
+	padding-top: 15px;
+}
+
+.red {
+	background-color: rgb(252, 191, 191);
+}
+
+[class*='col-'] {
+	width: 100%;
+	padding: 15px;
+}
+
+.tekst-element {
+	display: block;
+	width: 100%;
+	min-height: 250px;
+}
+
+/* Op schermen groter dan 768px */
+@media only screen and (min-width: 768px) {
+	[class*='col-'] {
+		padding: 15px;
+	}
+	section {
+		display: flex;
+	}
+	.col-1 {
+		width: 8.33%;
+	}
+	.col-2 {
+		width: 16.66%;
+	}
+	.col-3 {
+		width: 25%;
+	}
+	.col-4 {
+		width: 33.33%;
+	}
+	.col-5 {
+		width: 41.66%;
+	}
+	.col-6 {
+		width: 50%;
+	}
+	.col-7 {
+		width: 58.33%;
+	}
+	.col-8 {
+		width: 66.66%;
+	}
+	.col-9 {
+		width: 75%;
+	}
+	.col-10 {
+		width: 83.33%;
+	}
+	.col-11 {
+		width: 91.66%;
+	}
+	.col-12 {
+		width: 100%;
+	}
+}
+
+img {
+	margin: 5px;
+	float: right;
+	max-height: 200px;
+}
+
+footer {
+	height: auto;
+	background-color: antiquewhite;
+	width: auto;
+}
+
+footer p {
+	padding: 10px;
+	margin: 0;
+}
