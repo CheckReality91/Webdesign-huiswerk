@@ -12,14 +12,10 @@ header {
 }
 
 h1 {
-	transform: translate(25%, 150%);
+	transform: translate(0, 100%);
 	margin: auto;
-	width: 300px;
-}
-
-section {
-	margin: 0;
-	width: 100%;
+	width: 150px;
+	font-size: 40px;
 }
 
 li {
@@ -30,15 +26,19 @@ li {
 	background-color: rgb(252, 191, 191);
 }
 
-[class*='col-'] {
-	width: 100%;
-	padding: 15px;
-}
-
 .tekst-element {
 	display: block;
 	width: 100%;
 	min-height: 250px;
+}
+
+h3,
+p {
+	padding: 5px;
+}
+
+[class*='col-'] {
+	width: 100%;
 }
 
 /* Op schermen groter dan 768px */
@@ -91,15 +91,16 @@ img {
 	margin: 5px;
 	float: right;
 	max-height: 200px;
+	max-width: 200px;
 }
 
 footer {
-	height: auto;
 	background-color: antiquewhite;
+	height: auto;
 	width: auto;
 }
 
 footer p {
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 }
