@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Praktijk Kubus</title>
+		<style>
+			[class*='kubus'] {
+				width: 200px;
+				height: 200px;
+				animation-name: beweging;
+				animation-duration: 5s;
+				animation-fill-mode: forwards;
+				animation-delay: 1s;
+				margin-top: 5px;
+				animation-timing-function: ease-in-out;
+			}
+
+			.kubus1 {
+				background-color: blue;
+			}
+
+			.kubus2 {
+				background-color: red;
+			}
+
+			@keyframes beweging {
+				0% {
+					margin-left: 0px;
+				}
+				25% {
+					margin-left: 100px;
+				}
+				50% {
+					margin-left: 200px;
+					background-color: green;
+				}
+				75% {
+					margin-left: 300px;
+				}
+				100% {
+					background-color: yellow;
+					margin-left: 400px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="kubus1"></div>
+		<div class="kubus2"></div>
+	</body>
+</html>
