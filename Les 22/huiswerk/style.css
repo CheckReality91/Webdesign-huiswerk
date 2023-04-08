@@ -1,5 +1,9 @@
+body {
+	background-color: #f2ffe3;
+}
+
 img {
-	width: 200px;
+	width: 220px;
 	height: auto;
 }
 
@@ -9,4 +13,22 @@ img {
 
 .card {
 	width: 18rem;
+}
+
+li {
+	list-style: none;
+}
+
+.band-link {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	background-color: #c3daaa;
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0;
+	position: sticky;
+	top: 100vh;
 }
