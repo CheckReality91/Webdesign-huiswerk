@@ -14,19 +14,46 @@
 		<title>Huiswerk Les 22 || Bootstrap</title>
 	</head>
 	<body>
-		<div class="container-sm px-2">
-			<div class="row gx-3">
-				<div class="lead col-12">
-					<p>
-						Hallo! Dit is mijn huiswerkopdracht voor de NHA
-						opleiding Software Developer. In deze les is het
-						framework Bootstrap behandeld en is deze pagina ook
-						daarmee gemaakt. Bootstrap helpt de ontwikkelaar om snel
-						en efficient een mooie en duidelijk website op te
-						zetten. Hieronder kunt uw foto's zien van mijn favoriete
-						bands
-					</p>
+		<nav
+			class="navbar navbar-expand-lg navbar-dark"
+			style="background-color: #65b900"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="index.html">CheckReality</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link activepage" href="index.html"
+							>Homepage</a
+						>
+						<a class="nav-link" href="overmij.html">Over Mij</a>
+						<a class="nav-link" href="contact.html">Contact</a>
+					</div>
 				</div>
+			</div>
+		</nav>
+		<div class="container px-2">
+			<h1 class="display-4">Hallo!</h1>
+			<p class="lead">
+				Dit is mijn huiswerkopdracht voor de NHA opleiding Software
+				Developer. In deze les is het framework Bootstrap behandeld en
+				is deze pagina ook daarmee gemaakt. Bootstrap helpt de
+				ontwikkelaar om snel en efficient een mooie en duidelijk website
+				op te zetten. Hieronder kunt uw foto's zien van mijn favoriete
+				bands
+			</p>
+
+			<div class="row gx-3">
 				<div class="col-sm-4">
 					<img src="img/the_maine.webp" alt="The Maine" />
 					<p class="offset-2">The Maine</p>
@@ -68,5 +95,15 @@
 				</div>
 			</div>
 		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
