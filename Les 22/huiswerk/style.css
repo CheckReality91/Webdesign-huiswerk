@@ -11,10 +11,6 @@ img {
 	color: orange;
 }
 
-.card {
-	width: 18rem;
-}
-
 li {
 	list-style: none;
 }
@@ -25,10 +21,17 @@ li {
 }
 
 footer {
+	height: 200px;
 	background-color: #c3daaa;
+}
+
+footer p {
 	width: 100%;
-	padding: 15px;
+	text-align: center;
+	padding: 2rem 25%;
+}
+
+.btn {
 	margin: 10px 0;
-	position: sticky;
-	top: 100vh;
+	background-color: orange;
 }
